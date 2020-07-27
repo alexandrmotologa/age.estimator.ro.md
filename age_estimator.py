@@ -5,7 +5,6 @@ calc_birth = current_year - year_of_birth
 
 if year_of_birth < 1900 or year_of_birth > 2020:
     print("Eroare, se permit valori incepand cu anul 1900 pana la anul curent")
-    # print(year_of_birth = int(input("Introduceti anul nasterii corect: ")))
 
 elif year_of_birth == 2020:
         print("Anul de nastere introdus: " + str(year_of_birth) + ". Pentru a calcula varsta dumnevoastra este nevoie de a introduce luna de nastere")
@@ -17,7 +16,7 @@ elif year_of_birth == 2020:
         elif m_y_of_birth == 1:
             print("Luna si anul de nastere introdus: " + str(month_of_birth) + "." + str(year_of_birth) + ".")
             print("Dumnevoastra aveti :" + str(m_y_of_birth) + " luna - sunteti bebelus")
-        elif m_y_of_birth >= 1 or m_y_of_birth <= 6:
+        elif m_y_of_birth > 1 or m_y_of_birth <= 6:
             print("Luna si anul de nastere introdus: " + str(month_of_birth) + "." + str(year_of_birth) + ".")
             print("Dumnevoastra aveti :" + str(m_y_of_birth) + " luni - sunteti bebelus")
 
